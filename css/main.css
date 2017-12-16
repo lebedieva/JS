@@ -1,0 +1,32 @@
+.traffic-light{
+  width: 110px;
+  border: 4px solid #000;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+.traffic-light__block{
+  margin: 0 auto;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid #000;
+  margin-bottom: 10px;
+}
+.circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  
+}
+#red{
+  background: #FF0000;
+  opacity: 0;
+}
+#green{
+  background: #008000;
+  opacity: 0;
+}
+#yellow{
+  background: #FFFF00;
+  opacity: 0;
+}
