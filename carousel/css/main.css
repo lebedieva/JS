@@ -1,0 +1,56 @@
+.wrapper{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#carousel{
+  overflow: hidden;
+  position: relative;
+}
+.content{
+  width: 9999px;
+}
+.slide{
+    float: left;
+    padding-right: 15px;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out; 
+    -moz-transition: all 2s ease-in-out; 
+    -o-transition: all 2s ease-in-out;
+}
+.left{
+  display: block;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  font-size: 20px;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  background: #ce1e1e;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 50px;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+}
+.right{
+  display: block;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  font-size: 20px;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  background: #ce1e1e;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 50px;
+  -webkit-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+  transform: translate(0,-50%);
+}
